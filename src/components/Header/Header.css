@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+img {
+    margin-top: 50px;
+    height: 100px;
+}
+
+.header > p {
+    font-size: 2em;
+}
+
+.links {
+    margin-top: 60px;
+}
+
+.links > a {
+    font-size: 2em;
+    color: var(--secondary-color);
+    text-decoration: none;
+    display: block;
+    border-bottom: solid var(--secondary-color) 1px;
+    padding: 30px 0px 20px 0px;
+}
+
+.links > a:hover {
+    background-color: var(--secondary-color);
+    color: var(--background-color)
+}
