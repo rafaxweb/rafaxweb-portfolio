@@ -1,10 +1,10 @@
 import React from 'react'
-import './Header.css'
+import './Menu.css'
 import Logo from '../../assets/images/LogoPortfolio.png'
 
 export default function Header(): JSX.Element {
   return (
-    <div className="header">
+    <div className="menu">
         <img src={Logo} alt="logo" />
         <p>Portfolio Rafael Salas</p>
         <div className='links'>

@@ -1,4 +1,4 @@
-.header {
+.menu {
     width: 100%;
     padding: 0px;
     margin: 0px;
@@ -10,8 +10,8 @@ img {
     height: 100px;
 }
 
-.header > p {
-    font-size: 2em;
+.menu > p {
+    font-size: 1.5em;
 }
 
 .links {
@@ -28,6 +28,6 @@ img {
 }
 
 .links > a:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--contrast-color);
     color: var(--background-color)
 }
