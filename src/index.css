@@ -2,9 +2,12 @@
   --background-color: #003230;
   --main-color: #CFDBD5;
   --secondary-color: #E8EDDF;
+  --contrast-color: #3772FF;
 }
 
-html {
+body {
   color: var(--main-color);
   background-color: var(--background-color);
+  margin: 0px;
+  padding: 0px;
 }
