@@ -6,11 +6,11 @@ export const OnPageLoad = () => {
 }
 
 const SetLanguage = () => {
-    const settings: SettingsModel = SettingsRepository.getElement();
 
-    if (settings.language === undefined) {
-        // TODO: create new settings
+    if (SettingsRepository.getLanguage() === undefined) {
+        
         const settings = new SettingsModel();
+        
         if (window.navigator.language.toLowerCase().includes("es")) {
             settings.language = "ES";
 
