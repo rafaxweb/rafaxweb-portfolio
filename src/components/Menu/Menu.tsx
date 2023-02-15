@@ -4,7 +4,7 @@ import Logo from '../../assets/images/LogoPortfolio.png'
 import { Messages } from '../../data/Messages'
 import { SettingsRepository } from '../../data/repository/SettingsRepository'
 
-export default function Header(): JSX.Element {
+export default function Menu(): JSX.Element {
   return (
     <div className="menu">
         <img src={Logo} alt="logo" />
