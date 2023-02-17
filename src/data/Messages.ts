@@ -19,7 +19,8 @@ export class Messages {
             this.description.set("ES", "Programador web FullStack, con una constante motivación por aprender y afrontar nuevos retos. Me considero una persona curiosa y apasionada por la tecnología.");
             this.description.set("EN", "I am a FullStack web developer and a person with a constant motivation to learn and face new challenges. I consider myself a curious person and passionate about technology.");
 
-            this.button.set("ES", "Conoce más sobre mí")
+            this.button.set("ES", "Conoce sobre mí");
+            this.button.set("EN", "Get to know me")
         }
     }
 
