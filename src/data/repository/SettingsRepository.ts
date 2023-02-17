@@ -19,4 +19,10 @@ export class SettingsRepository {
         const settings = this.getElement();
         return settings.language;
     }
+
+    public static setLanguage(language: string): void {
+        const settings = this.getElement();
+        settings.language = language;
+        this.addElement(settings);
+    }
 }

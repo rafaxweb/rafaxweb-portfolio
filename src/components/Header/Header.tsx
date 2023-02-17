@@ -1,6 +1,7 @@
 import React, { MouseEventHandler, useState } from 'react'
 import './Header.css'
 import Logo from '../../assets/images/LogoContrast.png'
+import LanguageButtom from './LanguageButtom/LanguageButtom';
 
 interface IHeader {
     onClickMenu: MouseEventHandler;
@@ -27,6 +28,7 @@ export default function Header({onClickMenu}: IHeader) : JSX.Element {
           <span></span>
           <span></span>
         </div>
+      <LanguageButtom hidden={hiddenLogo}/>
 
       <a href="/" hidden={hiddenLogo}><img src={Logo} alt="logo" /></a>
 

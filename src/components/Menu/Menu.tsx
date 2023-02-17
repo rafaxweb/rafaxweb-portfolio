@@ -1,6 +1,6 @@
 import React from 'react'
 import './Menu.css'
-import Logo from '../../assets/images/LogoPortfolio.png'
+import Logo from '../../assets/images/LogoContrast.png'
 import { Messages } from '../../data/Messages'
 import { SettingsRepository } from '../../data/repository/SettingsRepository'
 
