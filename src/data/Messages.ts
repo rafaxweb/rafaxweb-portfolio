@@ -7,6 +7,7 @@ export class Messages {
         public static title = new Map();
         public static subtitle = new Map(); 
         public static description = new Map();
+        public static button = new Map();
 
         static {
             this.title.set("ES", "Hola, soy Rafael Salas");
@@ -18,6 +19,7 @@ export class Messages {
             this.description.set("ES", "Programador web FullStack, con una constante motivación por aprender y afrontar nuevos retos. Me considero una persona curiosa y apasionada por la tecnología.");
             this.description.set("EN", "I am a FullStack web developer and a person with a constant motivation to learn and face new challenges. I consider myself a curious person and passionate about technology.");
 
+            this.button.set("ES", "Conoce más sobre mí")
         }
     }
 

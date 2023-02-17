@@ -8,6 +8,7 @@ export default function Menu(): JSX.Element {
   return (
     <div className="menu">
         <img src={Logo} alt="logo" />
+        <br />
         <p>Portfolio Rafael Salas</p>
         <div className='links'>
             <a href="/">{Messages.Menu.home.get(SettingsRepository.getLanguage())}</a>
